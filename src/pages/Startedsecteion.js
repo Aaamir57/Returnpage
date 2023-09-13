@@ -13,7 +13,7 @@ export default function Startedsecteion() {
                     </p>
                 </div>
                     
-                    <button><span>Schedule a Pickup</span></button>
+                <button><span>Schedule a Pickup</span></button>
             </div>
         
         </div>

@@ -24,7 +24,8 @@ export default function Sectionone() {
             </div>
             <div class="button-div2">
                 <a href="#">Our Pricing</a>
-            </div>      
+            </div><br/>
+            <input type="text" name="fname" placeholder="Enter Zip Code"/>      
         </div>
 
         </div>

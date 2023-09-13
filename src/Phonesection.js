@@ -13,16 +13,16 @@ export default function Phonesection() {
 
                 <h3>We’ll handle the stress of packaging your returns </h3>
                 <div className=" toggle">
-                    <button id="flip1"><span>Don't have a printer?</span></button>
+                    <button id="flip1"><span>Don't have a printer?</span><img src="media/00.svg"/></button>
                     <p id="panel1">We take care of all the printing for digital labels.</p>
                     
                 </div>
                 <div className=" toggle">
-                    <button id="flip2"><span>Don't have a box?</span></button>
+                    <button id="flip2"><span>Don't have a box?</span><img src="media/00.svg"/></button>
                     <p id="panel2">We take care of all the printing for digital labels.</p>
                 </div>
                 <div className=" toggle">
-                    <button id="flip3"><span>Who has a roll of tape lying around?</span></button>
+                    <button id="flip3"><span>Who has a roll of tape lying around?</span><img src="media/00.svg"/></button>
                     <p id="panel3">We take care of all the printing for digital labels.</p>
                 </div>       
             </div>            

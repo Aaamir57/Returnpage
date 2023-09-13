@@ -11,6 +11,7 @@ import Imagessection from './pages/Imagessection';
 import Reviewsection from './Reviewsection';
 import Startedsecteion from './pages/Startedsecteion';
 import Footer from './pages/Footer';
+import Lastsection from './pages/Lastsection';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Vehiclesection/>
       <Mensection/>
       <Phonesection/>
+      <Lastsection/>
       <Reviewsection/>
       <Startedsecteion/>
       <Footer/>
