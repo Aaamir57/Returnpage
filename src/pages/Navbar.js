@@ -26,9 +26,9 @@ export default function Navbar() {
                     <a className="nav-link active color" aria-current="page" href="#">Sign in</a>
                 </li>
                 
-                <li className="nav-item Pickup-div">
-                    <p>Schedule a Pickup</p>
-                </li>
+                    <button class="Pickup-div">
+                        <a href="#">Schedule a pickup</a>
+                    </button>
             </ul>
         </nav>
 
