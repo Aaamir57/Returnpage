@@ -7,7 +7,7 @@ export default function Phonesection() {
     <div className="container text-center">
         <div className="row phone-section" >
             <div className="col-sm-12 col-md-12 col-lg-5">
-                <img src="./media/20.png"/>
+                <img src="./media/20.png" className='phonesection-img'/>
             </div>
             <div className="col-sm-12 col-md-12 col-lg-7">
 
