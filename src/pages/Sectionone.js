@@ -5,9 +5,9 @@ export default function Sectionone() {
   return (
 
 <div>
-    <div className="container-fluid text-center section1-bg"
-    style={{backgroundImage: "url('./media/2.png')"}}>
-        <div className="row">
+    <div className="container-fluid text-center "
+    style={{backgroundImage: "url('./media/2.png')",backgroundRepeat:"no-repeat",backgroundSize: "cover",backgroundPosition:"center"}}>
+        <div className="row section1-bg" >
             <div className="col cooo">
                 <h3>
                     Return your product

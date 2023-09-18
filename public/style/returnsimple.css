@@ -88,7 +88,7 @@ line-height: 24px;
     
 }
 
-@media(max-width: 858px){
+@media(max-width: 1020px){
     .checkbtn{
         display: block;
         position: absolute;
@@ -110,20 +110,62 @@ line-height: 24px;
     }
     .navbar ul li{
         display: block;
-        margin: 50px 0;
-        line-height: 30px;
+        margin: 30px 0;
+        line-height: 0px;
+        
+        text-align:center;
     }
     .navbar ul li a{
         font-size: 20px;
-
-
+    }
+    .return-div{
+        border-radius: 10px;
+        background: #FEFEFE;
+        width: 245px;
+        height: 49px;
+        flex-shrink: 0;
+        margin: 30px 0;
+        position: relative;
+        right: -20%;
+        top: 10%;
+        
+       
+        
+        
+        
+    }
+    @media screen and (min-width: 750px) and (max-width: 1020px){
+        .return-div{
+            position: relative;
+            right: -35%;
+            top: 5%;
+        }
+        .signin-location{
+            position: relative;
+            top: -8%;
+        }
+    }
+    @media screen and (max-width: 750px) {
+        .return-div{
+            position: relative;
+            right: -22%;
+            
+        }
+    }
+    .Pickup-div{
+        display: none;
+    }.signin-location{
+        position: relative;
+        top: -9%;
+    }
+    
     }
     a:hover,a.active{
         background: none;
         color: #0082e6;
 
     }
-}
+
 
 @media(min-width: 858px){
     
@@ -148,12 +190,8 @@ line-height: 24px;
 
 
 
-@media(max-width: 858px){
-    .return-div img{
-        display: none;
-    }
-}
-@media(min-width: 858px){
+
+@media(min-width: 1020px){
    .signin-locations{
     display: none;
    } 
@@ -210,7 +248,7 @@ line-height: normal;
     width: 100%;
 height: 750px;
 flex-shrink: 0;
-background-color: #000;
+
 padding-left: 7%;
 
 }
@@ -225,7 +263,7 @@ padding-left: 7%;
 .input-container {
   display: -ms-flexbox; /* IE10 */
   display: flex;
-  width: 581px;
+  width: 70%;
   height: 87px;
   margin-bottom: 15px;
   border-radius: 20px;
@@ -257,7 +295,10 @@ background: #FFF;
 .input-field {
   
   padding: 10px;
-  width: 550px; border-radius: 0px 20px 20px 0px;
+  width: 120%;
+  min-width: 290px;
+  
+  border-radius: 0px 20px 20px 0px;
   height: 86px;
   outline: none;
   border: 1px solid white;
@@ -346,6 +387,9 @@ text-decoration: none;
 
 
 
+
+
+
 @media screen and (max-width: 800px){
 
 .section1-bg h3{
@@ -382,7 +426,7 @@ text-decoration: none;
 
 @media screen and (max-width: 768px){
     .section1-bg{
-        height: 500px;
+        height: 600px;
         margin-top: 10%;
     }
     
@@ -391,17 +435,22 @@ text-decoration: none;
     .main-buton-right{
         display: none;
     }
-    input{
-       display: none;
-    }.input-container{
-        display: none;
-    }i{
-        display: none;
-    }
+    
     
 }
-
-
+@media screen and (min-width: 810px){
+input{
+    width: 700px;
+}
+.input-container{
+    width: 578px;
+}
+}
+@media screen and (max-width: 423px){
+    .section1-bg{
+        height: 660px;
+    }
+}
 
 
 
@@ -1082,6 +1131,10 @@ line-height: normal;
 }.main-mens p{
     position: relative;
     top: -20%;
+}.main-mens-back{
+   
+    margin-left: 1px;
+   
 }
 }
 
@@ -1168,7 +1221,7 @@ flex-shrink: 0;
 
 
 @media screen and (max-width: 992px){
-    .phone-section img{
+    .phonesection-img{
         display: none;
     }
 }
